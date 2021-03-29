@@ -11,8 +11,46 @@ h1 {
     background: rgba(172, 219, 209, 0.664);
     outline-style: dotted;
     outline-color: whitesmoke;
+    color: rgba(23, 81, 104, 0.863);
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 20%;
+    width: max-content;
+    padding-left: 120px;
+    padding-right: 120px;
 }
+
+h2 {
+    text-align: center;
+    color: rgba(95, 42, 60, 0.829);
+    margin-right: auto;
+    margin-left: auto;
+    line-height: normal;
+    font-style: italic;
+}
+
+table, th, td {
+    border: 1px solid rgba(0, 0, 0, 0.616);
+    outline-style: dashed;
+    text-align: left;
+    width: 50%
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    font-size: 25px;
+    text-align: center;
+    background-color: rgba(95, 42, 60, 0.829);
+    color: white;
+}
+
+td {
+    font-size: 20px;
+    height: 80px;
+    vertical-align: bottom;
+}
+
